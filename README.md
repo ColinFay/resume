@@ -13,7 +13,7 @@ Template](https://github.com/BlackrockDigital/startbootstrap-resume) for
 
 ## Installation
 
-You can install the released version of resume from GitHub with:
+You can install the dev version of `{resume}` from GitHub with:
 
 ``` r
 remotes::install_github("ColinFay/resume")
