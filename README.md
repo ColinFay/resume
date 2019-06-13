@@ -40,6 +40,7 @@ Example app:
 
 ``` r
 library(shiny)
+library(resume)
 ui <- function(request){
   resume_page(
     app_title = "plop",
@@ -109,6 +110,8 @@ server <- function(input, output, session){
 
 shinyApp(ui, server)
 ```
+
+![](readme-figs/example.gif)
 
 Please note that the ‘resume’ project is released with a [Contributor
 Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project,
