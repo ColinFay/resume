@@ -1,0 +1,11 @@
+Package: resume
+Title: Bootstrap Resume Template for 'Shiny'
+Version: 0.0.0.9000
+Authors@R: person("Colin", "Fay", email = "contact@colinfay.me", role = c("aut", "cre"))
+Description: Implementation of the Bootstrap Resume Template for 'Shiny'.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    htmltools
+RoxygenNote: 6.1.0
