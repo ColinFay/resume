@@ -45,6 +45,7 @@ trois <- function(input, output, session){
 
   output$education <- renderPlot({
     plot(airquality)
+
   })
 
 }
@@ -59,6 +60,7 @@ ui <- function(request){
         "about" = "About",
         "experience" = "Experience",
         "education" = "Education"
+
       ),
       image = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/198/sign-of-the-horns_1f918.png"
     ),
